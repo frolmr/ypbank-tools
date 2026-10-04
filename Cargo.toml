@@ -1,0 +1,19 @@
+[package]
+name = "ypbank-tools"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "ypbank_tools"
+path = "src/lib.rs"
+
+[[bin]]
+name = "converter"
+path = "src/main.rs"
+
+[[bin]]
+name = "comparer"
+path = "src/bin/comparer.rs"
+
+[dependencies]
+chrono = "0.4.45"
